@@ -1,3 +1,15 @@
-.conteudo{
+.form{
     margin-top: 15vh;
+}
+
+.informacao{
+
+}
+
+.label{
+    margin-top:1vh;
+}
+
+input{
+    width: 100%;
 }

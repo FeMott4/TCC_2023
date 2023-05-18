@@ -30,13 +30,13 @@
                 <a class="nav-link active" aria-current="page" href="../index.html">Página Inicial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./clientes.html">Clientes</a>
+                <a class="nav-link" href="../dropdown-menu/clientes.html">Clientes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contato.html">Contatos</a>
+                <a class="nav-link" href="../dropdown-menu/contato.html">Contatos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./servicos.html">Serviços</a>
+                <a class="nav-link" href="../dropdown-menu/servicos.html">Serviços</a>
               </li>
             </ul>
             
@@ -45,23 +45,48 @@
       </div>
     </nav>
 
-    <!-- Conteudo -->
-
-    <div class="conteudo">
-      <div class="col-lg-6">
-        <div class="contato">siga nos</div>
-        <div class="contato">contatenos</div>
-      </div>
-      <div class="col-lg-6">
-        <div class="formulario">
-
+    <!-- Conteúdo -->
+    <div class="form row">
+      <div class="informacao col-lg-6">
+        <div class="col d-flex justify-content-center">
+          <h1>Localização</h1>
         </div>
+        <div class="col d-flex justify-content-center">
+          <h1>Siga-nos</h1>
+        </div>
+      </div>
 
+      <div class="col-lg-6">
+        <h1>Formulário de Contato</h1>
+        <form action="\contato" method="POST">
+          <div class="row">
+            <div class="label col-lg-4">
+              <label for="nome">Nome:</label> <br>
+              <input type="text" name="nome" placeholder="Nome completo">
+            </div>
+          </div>
+          <div class="row">
+            <div class="label col-lg-4">
+              <label for="e-mail">E-mail:</label> <br>
+              <input type="text" name="e-mail" placeholder="E-mail válido">
+            </div>
+          </div>
+          <div class="row">
+            <div class="label col-lg-4">
+              <label for="telefone">Telefone:</label> <br>
+              <input type="text" name="telefone" placeholder="Telefone válido">
+            </div>
+          </div>
+          <div class="row">
+            <div class="label col-lg-4">
+              <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 
-        <!-- rodapé -->
-    
+    <!-- rodapé -->
     <div class="footer  d-flex  align-items-center bg-dark">
       <div class="contato col-lg-5 col-sm-8">
          <h4>E-MAIL:</h4> 
@@ -75,7 +100,7 @@
          <ul>
           <li><a href="../index.html">Página inicial</a></li>
           <li><a href="./clientes.html">Clientes</a></li>
-          <li><a href="./servicos.html">Serviços</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
 
          </ul>
       </div>
