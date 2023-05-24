@@ -56,32 +56,30 @@
         </div>
       </div>
 
-      <div class="col-lg-6">
-        <h1>Formulário de Contato</h1>
+      <div class="formulario col-lg-6">
+        
         <form action="\contato" method="POST">
-          <div class="row">
-            <div class="label col-lg-4">
-              <label for="nome">Nome:</label> <br>
-              <input type="text" name="nome" placeholder="Nome completo">
-            </div>
+          <h1 class="d-flex justify-content-center">Contacte-nos</h1>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Nome:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="nome" placeholder="Nome completo">
+          </div>          
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">E-mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="e-mail" placeholder="E-mail válido">
           </div>
-          <div class="row">
-            <div class="label col-lg-4">
-              <label for="e-mail">E-mail:</label> <br>
-              <input type="text" name="e-mail" placeholder="E-mail válido">
-            </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Telefone:</label>
+            <input type="" class="form-control" id="exampleFormControlInput1" name="telefone" placeholder="Telefone válido">
           </div>
-          <div class="row">
-            <div class="label col-lg-4">
-              <label for="telefone">Telefone:</label> <br>
-              <input type="text" name="telefone" placeholder="Telefone válido">
-            </div>
+
+          <div class="form-group" >
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
           </div>
-          <div class="row">
-            <div class="label col-lg-4">
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
-            </div>
-          </div>
+          
         </form>
       </div>
     </div>
